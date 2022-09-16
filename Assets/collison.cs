@@ -22,5 +22,7 @@ public class collison : MonoBehaviour
     {
       Destroy(gameObject);
       Destroy(other.gameObject);
+      score++;
+      Debug.Log("score: "+ score);
     }
 }
